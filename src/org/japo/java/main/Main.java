@@ -22,10 +22,14 @@ package org.japo.java.main;
 public class Main {
 
     public static void main(String[] args) {
-        
+        //Declaramos constante
         final boolean HORARIO_INVIERNO = false;
         
+        //Salida con println
         System.out.println("Horario de invierno ...: " + HORARIO_INVIERNO);
+        
+        //Salida con printf
+        System.out.printf("Horario de invierno ...: %b%n", HORARIO_INVIERNO);
         
 
     }
